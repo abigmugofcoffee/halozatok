@@ -5,7 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Update="wwwroot\en.jpg">
+    <Content Update="wwwroot\en.jpg.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\orkeny_istvan.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

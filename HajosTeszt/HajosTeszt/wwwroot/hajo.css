@@ -1,0 +1,73 @@
+﻿html, body {
+    height: 100%;
+}
+
+#kulso {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#kerdes {
+}
+
+#kozepso {
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#vezerlo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tipp {
+    flex-direction: column;
+    width: auto;
+    background-color: cornsilk;
+}
+
+#kep {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#abra {
+    height: auto;
+    width: auto;
+    flex-shrink: 1;
+}
+
+#kattinthato {
+    padding: 20px;
+    width: 80px;
+    border: 2px;
+}
+
+.kattinthato:hover {
+    background-color: gold;
+}
+
+.kattinthato:disabled {
+    padding: 5px;
+    background-color: darkgrey;
+    border-color: black;
+}
+
+.kattinthato:enabled {
+    padding: 5px;
+    background-color: cornsilk;
+    border-color: antiquewhite;
+}
+
+
+.gomb {
+    padding: 20px;
+    width: 80px;
+    border: 2px;
+}

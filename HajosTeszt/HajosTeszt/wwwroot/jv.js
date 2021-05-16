@@ -9,7 +9,6 @@ var go = function () {
     let hova = document.getElementById("ide");
     hova.innerHTML = "";
     let parameter = document.getElementById("p").value
-    var mellette = 1;
 
     for (var s = 0; s <= parameter; s++) {
 
@@ -23,9 +22,7 @@ var go = function () {
             szám.classList.add("doboz");
             sor.appendChild(szám)
             szám.innerText = faktorialis(s) / (faktorialis(o) * faktorialis(s - o))
-            mellette = szám.innerText;
             szám.style.color = `rgb(${255 / 10 * s},0,${255 / 10 * s}`
-
         }
     }
 }

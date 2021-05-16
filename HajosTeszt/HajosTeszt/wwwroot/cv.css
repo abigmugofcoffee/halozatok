@@ -1,0 +1,35 @@
+﻿* {
+    box-sizing: border-box
+}
+
+body {
+    color: midnightblue;
+    font-weight: bold
+}
+
+div {
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+.elofej {
+    text-align: right;
+}
+
+.mese {
+    text-align: justify
+}
+
+@media screen and (max-width: 800px) {
+    .mese, .cimsor {
+        display: flex
+    }
+
+    #khg {
+        flex: 1 1 50%
+    }
+
+    #otthon {
+        flex: 1 1 50%
+    }
+}
